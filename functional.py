@@ -13,3 +13,7 @@ def softmax(input):
 
     return ret
 
+
+def mse_loss(input, target):
+    return 0.5 * np.sum((input-target)**2)
+
